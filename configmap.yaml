@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+  namespace: joomla
+data:
+  MYSQL_DATABASE: joomla
+  MYSQL_USER: joomla
+  MYSQL_PASSWORD: joomla
+  MYSQL_ROOT_PASSWORD: rootpassword
